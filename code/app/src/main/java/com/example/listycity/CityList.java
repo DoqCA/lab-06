@@ -63,7 +63,7 @@ public class CityList {
      * @return
      *      Return the number of items in cities
      */
-    public int getCount() {
+    public int countCities() {
         return cities.toArray().length;
     }
 
