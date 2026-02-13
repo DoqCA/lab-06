@@ -90,13 +90,13 @@ public class CityListTest {
         City city0 = new City("Edmonton", "Alberta");
         City city1 = new City("Calgary", "Alberta");
 
-        assertEquals(1, cityList.getCount());
+        assertEquals(1, cityList.countCities());
 
         cityList.add(city1);
-        assertEquals(2, cityList.getCount());
+        assertEquals(2, cityList.countCities());
 
         cityList.delete(city0);
         cityList.delete(city1);
-        assertEquals(0, cityList.getCount());
+        assertEquals(0, cityList.countCities());
     }
 }
